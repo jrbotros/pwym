@@ -1,5 +1,5 @@
 $(function(){
-	$('#arrow').hide().delay(200).fadeIn()
+	$('#arrow').hide().delay(200).fadeIn(1000)
 	$('.problem-link').click(function() {
 		next = $(this).index('.problem-link') + 1
 
