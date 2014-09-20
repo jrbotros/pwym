@@ -48,6 +48,14 @@ header.full-height {
     color: white;
 }
 
+header #arrow {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  margin-top: 60vh;
+}
+
 #logo {
   position: relative;
   top: 50%;
@@ -61,7 +69,11 @@ header.full-height {
   overflow: hidden;
   border: 5px solid white;
   border-radius: 20px;
-  padding: 40px 0;
+  padding: 30px 15px;
+}
+
+#logo img {
+  width: 100%;
 }
 
 #logo .large-word, #logo .small-words {
@@ -131,4 +143,16 @@ header.full-height {
 
 #problem-area img {
   width: 100%;
+}
+
+@media(max-width: 700px) {
+  #logo {
+    border-width: 3px;
+  }
+}
+
+@media(max-width: 450px) {
+  #logo {
+    border-width: 1px;
+  }
 }
